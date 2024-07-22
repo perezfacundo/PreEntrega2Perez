@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Palomeque Leila</title>
+
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Perez Facundo">
+    <meta name="description" content="Development Web Portfolio">
+    <meta name="keywords" content="HTML, CSS, Bootstrap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="#"><img src="img/favicon.png" width="30" alt="logo-de-la-pagina-web"></a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#clientes-recientes">Clientes recientes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonios">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seccion "Hero" -->
+    <section id="hero" class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="hero-imagen" src="img/hero.jpg" alt="Foto de Leila Palomeque">
+            <h1>Hola, soy Leila</h1>
+            <h2>Soy licenciada en turismo y hotelería</h2>
+        </div>
+
+        <div class="hero-inferior">
+            <img src="" alt="">
+        </div>
+    </section>
+
+
+    <!-- Seccion Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo texto-blanco">Conóceme !</h2>
+            <p class="seccion-texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae architecto,
+                atque corporis earum explicabo vero sunt possimus. Magni suscipit delectus porro ducimus illo,
+                doloremque commodi quo ex provident, facilis minima!</p>
+        </div>
+    </section>
+
+    <!-- Seccion Experiencia -->
+    <section id="experiencia" class="experiencia seccion-clara">
+        <div class="container text-center">
+            <div class="row">
+                <!-- Turismo -->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-image-fill"></i>
+                    <p class="experiencia-titulo">Turismo</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis atque sit porro libero quae
+                        optio?</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">Montaña</span>
+                        <span class="badge text-bg-primary">Historia</span>
+                        <span class="badge text-bg-primary">Gatronomía</span>
+                    </div>
+                </div>
+
+                <!-- Hoteleria -->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-building-fill"></i>
+                    <p class="experiencia-titulo">Hotelería</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis atque sit porro libero quae
+                        optio?</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">Montaña</span>
+                        <span class="badge text-bg-primary">Playa</span>
+                    </div>
+                </div>
+
+                <!-- Estudiante -->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-backpack-fill"></i>
+                    <p class="experiencia-titulo">Estudiante</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis atque sit porro libero quae
+                        optio?</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">Universidad de Quilmes</span>
+                        <span class="badge text-bg-primary">Platzi</span>
+                        <span class="badge text-bg-primary">UNSaM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion Clientes -->
+    <section id="clientes-recientes" class="clientes-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Clientes</h2>
+        <h3 class="seccion-descripcion">Estos son algunos de mis clientes con los que he trabajado</h3>
+
+        <!-- Galeria de clientes -->
+        <div class="container text-center clientes-contenedor">
+            <div class="row">
+                <!-- Cliente 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="cliente">
+                        <img src="img/apartho.jpg" width="100" alt="">
+                        <div class="overlay">
+                            <p>Apartho Dean Funes</p>
+                            <div class="iconos-contenedor">
+                                <a href="" target="_blank" rel="noopener noreferrer"><i class="bi bi-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cliente 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="cliente">
+                        <img src="img/postasdeanfunes.jfif" width="100" alt="">
+                        <div class="overlay">
+                            <p>Postas Dean Funes</p>
+                            <div class="iconos-contenedor">
+                                <a href="" target="_blank" rel="noopener noreferrer"><i class="bi bi-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cliente 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="cliente">
+                        <img src="img/larosada.jpg" width="100" alt="">
+                        <div class="overlay">
+                            <p>La Rosada</p>
+                            <div class="iconos-contenedor">
+                                <a href="" target="_blank" rel="noopener noreferrer"><i class="bi bi-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cliente 4 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="cliente">
+                        <img src="img/lasofia.jpg" width="100" alt="">
+                        <div class="overlay">
+                            <p>La Sofia</p>
+                            <div class="iconos-contenedor">
+                                <a href="" target="_blank" rel="noopener noreferrer"><i class="bi bi-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cliente 5 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="cliente">
+                        <img src="img/sanjorge.jpg" width="100" alt="">
+                        <div class="overlay">
+                            <p>Hotel San Jorge</p>
+                            <div class="iconos-contenedor">
+                                <a href="" target="_blank" rel="noopener noreferrer"><i class="bi bi-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cliente 6 -->
+                <div class="col-12 col-md-6 col-lg-4 pt-100">
+                    <div class="cliente">
+                        <img src="img/muni.jpg" alt="">
+                        <div class="overlay">
+                            <p>Municipalidad de Dean Funes</p>
+                            <div class="iconos-contenedor">
+                                <a href="" target="_blank" rel="noopener noreferrer"><i class="bi bi-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="clientes.html" class="btn btn-info">
+            Ver mas clientes
+            <i class="bi bi-arrow-right-square-fill"></i>
+        </a>
+    </section>
+
+    <!-- Seccion Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+        <h2 class="seccion-titulo">Testimonios</h2>
+        <!-- Carousel -->
+        <div id="testimoniosCarousel" class="carousel carousel-dark slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="img/testimonio1.jpg" alt="Foto de Carla">
+                        <p class="testimonio-texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, illo.
+                            Nostrum reprehenderit provident minus ipsum hic, officiis tenetur nobis placeat.</p>
+                        <div class="testimonio-info">
+                            <p class="testigo">Carla</p>
+                            <p class="cargo">Secretaria de cultura y turismo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="img/testimonio2.jpg" alt="Foto de Lorenzo">
+                        <p class="testimonio-texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, illo.
+                            Nostrum reprehenderit provident minus ipsum hic, officiis tenetur nobis placeat.</p>
+                        <div class="testimonio-info">
+                            <p class="testigo">Lorenzo</p>
+                            <p class="cargo">Gerente de Apart Hotel Dean Funes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="img/testimonio3.jpg" alt="Foto de Luciana">
+                        <p class="testimonio-texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, illo.
+                            Nostrum reprehenderit provident minus ipsum hic, officiis tenetur nobis placeat.</p>
+                        <div class="testimonio-info">
+                            <p class="testigo">Luciana</p>
+                            <p class="cargo">Dueña de hospedaje en Tulumba</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimoniosCarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimoniosCarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+        <div class="container">
+            <div class="container text-center rectangulo d-flex justify-content-evenly">
+                <div class="row">
+                    <div class="col-12 col-md-4 seccion-titulo">
+                        Hablemos !
+                    </div>
+                    <div class="col-12 col-md-4 descripcion">
+                        Escríbeme y cuéntame por qué necesitas mi servicio !
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="form.html">
+                            <button type="button">
+                                Escríbeme !
+                                <i class="bi bi-envelope-at-fill"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de pagina -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <img class="footer-logo" src="img/favicon.png" alt="Logo del portafolio">
+        <p class="footer-texto text-center">Me gusta dar lugares a conocer. <br>Llevemos un proyecto adelante juntos !</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <!-- Twitter -->
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-twitter-x"></i>
+            </a>
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/leilapalomeque_?igsh=MWJvOTZ1cWtmYmxwMg==" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <!-- linkedIn -->
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <!-- Correo -->
+            <a href="mailto:leilapalomeque98@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope-at-fill"></i>
+            </a>
+        </div>
+        <div class="derechos-de-autor">Creado por Facundo Perez (2024) &#169;</div>
+    </footer>
+
+    <!-- Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
