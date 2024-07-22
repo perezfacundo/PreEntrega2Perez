@@ -1,3 +1,4 @@
-<h1>Proyecto 1 del curso de desarrollo web</h1>
+<h1>Proyecto 2 del curso de desarrollo web</h1>
 
-<h2>Vista previa</h2>(https://github.com/perezfacundo/PreEntrega2Perez/tree/4b800741807ab26f51cb084fbb80495d75ab6579/screenshots/screenshot.png)
+<h2>Vista previa</h2>
+![image](https://github.com/perezfacundo/PreEntrega2Perez/tree/a58ccf461bc08f3bdfd8d390428dbdbebdc74c26/screenshots/screenshot.png)
